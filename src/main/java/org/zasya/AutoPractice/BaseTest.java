@@ -68,6 +68,7 @@ public class BaseTest {
 		driver = initializeDriver();
 		landingPage = new LandingPage(driver);
 		landingPage.goTo();
+		System.out.println("we are on landing page");
 		return landingPage;
 	}
 	@AfterMethod(alwaysRun=true)
