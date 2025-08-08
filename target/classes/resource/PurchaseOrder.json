@@ -1,0 +1,14 @@
+[
+  {
+    "email": "user1@example.com",
+    "password": "securePassword1",
+    "productName": "IPHONE 13 PRO",
+    "countryName": "Aust"
+  },
+  {
+    "email": "user2@example.com",
+    "password": "anotherPassword",
+    "productName": "ADDIDAS ORIGINALS",
+    "countryName": "Can"
+  }
+]
