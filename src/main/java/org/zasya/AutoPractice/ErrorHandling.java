@@ -18,6 +18,7 @@ public class ErrorHandling extends BaseTest{
 	        landingPage.loginapplication("lokithor@gmail.com", "Mmpl@2003");
 	        
 	        Assert.assertEquals("Incorrect email or passwor", landingPage.getErrorMessage());
+	        System.out.println("__-The error is being detected. either of the value is invalid-__");
 		}
 	
 	@Test

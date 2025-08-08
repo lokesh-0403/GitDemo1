@@ -19,6 +19,7 @@ public class OrderPage extends AbstractComponent {
 		super(driver);
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		System.out.println("We are on the OrderPage");
 	}
 	
 	@FindBy(css=".totalRow button")

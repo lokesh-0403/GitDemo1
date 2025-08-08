@@ -67,6 +67,7 @@ public class SubmitOrder extends BaseTest {
 	        String text = confimPage.verifyMessage();
 	        Assert.assertEquals(text, line.toUpperCase());
 	        Thread.sleep(3000);
+	        System.out.println("<<--End of the Test Here-->>");
 	              
 	    
 	    }

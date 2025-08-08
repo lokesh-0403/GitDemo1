@@ -24,6 +24,7 @@ public class ExtentReorterNG{
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester","zasya solutions");
+		System.out.println("Report are being formed");
 		
 	return extent;
 	}
